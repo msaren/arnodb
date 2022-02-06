@@ -13,11 +13,9 @@ f. Server synchronizer
 
 Jadda daa.
 
-    docker build -t ftep-build ./buildImg/
-    docker run -v $PWD:$PWD -w $PWD ftep-build gradle build buildDist --parallel
+    docker build -t arnodb ./buildImage/
 
-Note that some additional paths or environment variables may be required for
-each build task.
+Note 
 
 ## License
 
