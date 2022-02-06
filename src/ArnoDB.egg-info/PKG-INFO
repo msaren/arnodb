@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ArnoDB
+Version: 0.0.1
+Summary: ArnoDB
+Home-page: https://github.com/msaren/arnodb
+Author: Matti Sarén
+Author-email: matti.saren@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nsaren/arnodb/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: LGPL License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ArnoDB
+
+[ArnoDB][arnodb] is scraping, analysing and serving platform for various independent timestamped data sources. ArnoDB consists of following modules:
+
+a. User management
+b. Scrapers
+c. Database adaptors
+d. Sequencer
+e. Web Rest API
+f. Server synchronizer
+
+## Source
+
+Jadda daa.
+
+    docker build -t arnodb ./buildImage/
+
+Note 
+
+## License
+
+ArnoDB is **licensed** under the [GNU Lesser General Public License][LGPL]. The
+terms of the license are as follows:
+
+
